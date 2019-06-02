@@ -8,6 +8,7 @@
     }
     &:hover {
       color: $color;
+      margin: 20px;
       & > * {
         transform: scale(1.4);
         color: $color;
@@ -37,6 +38,8 @@
           @extend %fa-icon;
           @extend .fab;
           @extend .fa-2x;
+
+          margin: 10px;
 
           &:before {
             content: fa-content($var);
