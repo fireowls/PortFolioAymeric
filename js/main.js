@@ -9,7 +9,7 @@ $(() => {
       // $(':root').animate({
       //   scrollTop: $(page).offset().top
       // }, speed);
-    return false;
+    return true;
   });
 
 });

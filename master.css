@@ -9664,13 +9664,27 @@ h3 {
 .fas,
 .far,
 .fal,
-.fab {
+.fab,
+#social-link i.igithub,
+#social-link i.isoundcloud,
+#social-link i.ilinkedin,
+#social-link i.ifacebook {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
+  line-height: 1;
+}
+
+#social-link i.igithub, #social-link i.isoundcloud, #social-link i.ilinkedin, #social-link i.ifacebook {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
   line-height: 1;
 }
 
@@ -9692,7 +9706,7 @@ h3 {
   font-size: 1em;
 }
 
-.fa-2x {
+.fa-2x, #social-link i.igithub, #social-link i.isoundcloud, #social-link i.ilinkedin, #social-link i.ifacebook {
   font-size: 2em;
 }
 
@@ -9768,14 +9782,22 @@ h3 {
 .fas.fa-pull-left,
 .far.fa-pull-left,
 .fal.fa-pull-left,
-.fab.fa-pull-left {
+.fab.fa-pull-left,
+#social-link i.fa-pull-left.igithub,
+#social-link i.fa-pull-left.isoundcloud,
+#social-link i.fa-pull-left.ilinkedin,
+#social-link i.fa-pull-left.ifacebook {
   margin-right: 0.3em;
 }
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
 .fal.fa-pull-right,
-.fab.fa-pull-right {
+.fab.fa-pull-right,
+#social-link i.fa-pull-right.igithub,
+#social-link i.fa-pull-right.isoundcloud,
+#social-link i.fa-pull-right.ilinkedin,
+#social-link i.fa-pull-right.ifacebook {
   margin-left: 0.3em;
 }
 
@@ -15380,6 +15402,22 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+/*!
+ * Font Awesome Free 5.8.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot");
+  src: url("node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2") format("woff2"), url("node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff") format("woff"), url("node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf") format("truetype"), url("node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+.fab, #social-link i.igithub, #social-link i.isoundcloud, #social-link i.ilinkedin, #social-link i.ifacebook {
+  font-family: "Font Awesome 5 Brands";
+}
+
 body,
 html {
   width: 100%;
@@ -15670,6 +15708,9 @@ header.masthead h1 {
 #social-link a.facebook .fa {
   margin: 10px;
 }
+#social-link i.ifacebook:before {
+  content: "";
+}
 #social-link a.linkedin, #social-link a.linkedin > * {
   color: black;
   transition-duration: 0.1s;
@@ -15684,6 +15725,9 @@ header.masthead h1 {
 }
 #social-link a.linkedin .fa {
   margin: 10px;
+}
+#social-link i.ilinkedin:before {
+  content: "";
 }
 #social-link a.soundcloud, #social-link a.soundcloud > * {
   color: black;
@@ -15700,6 +15744,9 @@ header.masthead h1 {
 #social-link a.soundcloud .fa {
   margin: 10px;
 }
+#social-link i.isoundcloud:before {
+  content: "";
+}
 #social-link a.github, #social-link a.github > * {
   color: black;
   transition-duration: 0.1s;
@@ -15714,6 +15761,9 @@ header.masthead h1 {
 }
 #social-link a.github .fa {
   margin: 10px;
+}
+#social-link i.igithub:before {
+  content: "";
 }
 
 /*# sourceMappingURL=master.css.map */
