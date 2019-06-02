@@ -1,0 +1,35 @@
+@mixin hover-color($color) {
+    &, & > * {
+      color: black;
+      transition: {
+        duration: 0.1s;
+        timing-function: linear;
+      }
+    }
+    &:hover {
+      color: $color;
+      & > * {
+        transform: scale(1.4);
+        color: $color;
+      }
+    }
+}
+
+
+#social-link {
+
+    $list: 
+    ('facebook', #3b5998), 
+    ('linkedin', #0077B5), 
+    ('soundcloud', #ff8800), 
+    ('github', #6e5494);
+
+    @each $icon, $color in $list {
+        a.#{$icon} {
+          @include hover-color($color);
+          .fa {
+            margin: 10px;
+          }
+        }        
+    }
+}

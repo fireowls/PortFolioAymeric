@@ -1,0 +1,29 @@
+{
+  "name": "Portfolio-Aymeric",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery-easing": "^0.0.1",
+    "magnific-popup": "^1.1.0",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "sass": "^1.20.1"
+  },
+  "scripts": {
+    "style": "clear && echo 'transpiling scss to css...' && sass master.scss master.css && clear && echo 'done'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireowls/Portfolio-Aymeric.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fireowls/Portfolio-Aymeric/issues"
+  },
+  "homepage": "https://github.com/fireowls/Portfolio-Aymeric#readme"
+}

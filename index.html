@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hénouille Aymeric</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
+    rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="node_modules/magnific-popup/dist/magnific-popup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="master.css">
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Hénouille Aymeric</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#apropos">À PROPOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#formation">FORMATIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#competences">COMPETENCES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projets">PROJETS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">Hénouille Aymeric</h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">
+            Bienvnue sur mon portfolio. Vous trouverez ici quelque informations
+            concernant mon parcours ainsi que mes activitées. Bonne visite !
+          </p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">Me contacter</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="apropos">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="row">
+          <div class="text-center">
+            <h2 class="text-white mt-0">Présentation</h2>
+            <hr class="divider light my-4">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <h3 class="text-white">Hénouille Aymeric, <span class="age">{{age}}</span> ans...</h3>
+            <h5 class="text-white font-weight-bold mb-4">Etudiant en informatique et musicien</h5>
+            <p class="text-white">
+              Actuellement étudiant en DUT informatique, je passe le plus clair
+              de mon temps à me documenter sur diverses technologies du web ou encore à
+              participer au développement de projet en java dans le dommaine du jeu vidéo.
+              Je suis également compositeur / musicien multi instrumentiste a mes heures perdue...
+            </p>
+            <p class="text-white mb-5">
+              Ce portfolio a pour but de vous présenter mon parcours et une liste de quelques projets au quels je
+              participe.
+              Vous trouverez egalement un moyen de me contacter.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <img class="img-fluid rounded-circle mb-3" src="img/profil.jpg" alt="henouille aymeric">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6 ml-4 mr-4">
+            <a class="btn btn-light btn-xl text-center js-scroll-trigger" href="CV_aymeric.pdf">Mon CV</a>
+          </div>
+          <div class="col-xs-6 ml-4 mr-4">
+            <a class="btn btn-dark btn-xl text-center js-scroll-trigger" href="#contact">Contacte</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="page-section" id="formation">
+    <div class="container">
+      <h2 class="text-center mt-0">Mes formations</h2>
+      <hr class="divider my-4">
+      <div class="row">
+
+        <div class="accordion" style="width: 100%;" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0 text-center">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  DUT informatique
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <iframe class="container-fluid"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20246.977744989552!2d3.0380151!3d50.62949055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c32831bfb51bab%3A0x52714ad4d035db6f!2sIUT+A+de+Lille!5e0!3m2!1sfr!2sfr!4v1553525266407"
+                  width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0 text-center">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Bac S
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <iframe class="container-fluid"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.2034938937336!2d3.0681362507214867!3d50.64191178133187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c32a74336d08b5%3A0x131e619e2b1156a3!2sLyc%C3%A9e+Louis+Pasteur!5e0!3m2!1sfr!2sfr!4v1553525402923"
+                  width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Competences Section -->
+  <section class="page-section bg-primary" id="competences">
+    <div class="container text-center">
+      <h2 class="mb-4">Mes competences</h2>
+      <hr class="divider my-4" />
+
+      <div class="container mb-4">
+        <h2 class="mb-4">Informatique</h2>
+
+        <div class="row">
+          <div class="card">
+            <img class="card-img-top" src="img/competences/java.png" alt="java">
+            <div class="card-body">
+              <p class="card-text">Java</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/c.png" alt="c">
+            <div class="card-body">
+              <p class="card-text">C</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/lua.png" alt="Lua">
+            <div class="card-body">
+              <p class="card-text">Lua</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/python.png" alt="Python">
+            <div class="card-body">
+              <p class="card-text">Python</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/android.png" alt="android">
+            <div class="card-body">
+              <p class="card-text">Android</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/javafx.png" alt="javafx">
+            <div class="card-body">
+              <p class="card-text">JavaFX</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/libGDX.png" alt="libGDX">
+            <div class="card-body">
+              <p class="card-text">LibGDX</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/spigot.png" alt="spigot">
+            <div class="card-body">
+              <p class="card-text">Spigot</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/html.png" alt="html">
+            <div class="card-body">
+              <p class="card-text">HTML</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/css.png" alt="css">
+            <div class="card-body">
+              <p class="card-text">CSS</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/js.png" alt="js">
+            <div class="card-body">
+              <p class="card-text">Javascript</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/sass.png" alt="sass">
+            <div class="card-body">
+              <p class="card-text">Sass</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/ts.png" alt="typescript">
+            <div class="card-body">
+              <p class="card-text">TypeScript</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/angular.png" alt="angular">
+            <div class="card-body">
+              <p class="card-text">Angular</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/nodejs.png" alt="nodejs">
+            <div class="card-body">
+              <p class="card-text">NodeJs</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/sql.png" alt="sql">
+            <div class="card-body">
+              <p class="card-text">SQL</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/git.png" alt="git">
+            <div class="card-body">
+              <p class="card-text">GIT</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/groovy.jpg" alt="groovy">
+            <div class="card-body">
+              <p class="card-text">Groovy</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/gradle.png" alt="gradle">
+            <div class="card-body">
+              <p class="card-text">Gradle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="mb-4">Autre</h2>
+        <div class="row">
+          <div class="card">
+            <img class="card-img-top" src="img/competences/gsuite.png" alt="gsuite">
+            <div class="card-body">
+              <p class="card-text">G Suite</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/openoffice.jpg" alt="open office">
+            <div class="card-body">
+              <p class="card-text">Open Office</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/flstudio.png" alt="fl studio">
+            <div class="card-body">
+              <p class="card-text">FL Studio</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="img/competences/permisB.png" alt="permis de conduire">
+            <div class="card-body">
+              <p class="card-text">Permis de conduire</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets section -->
+  <section id="projets" class="page-section bg-dark text-white">
+    <div class="container text-center">
+      <h2 class="mb-4">Mes Projets</h2>
+      <hr class="divider my-4">
+    </div>
+    <div class="container">
+      <div class="card-deck">
+        <div class="card">
+          <a class="image-hover" href="https://www.youtube.com/watch?v=165mTA7fs6A">
+            <img class="card-img-top" src="img/projets/Logo-Huminecraft-miniature.png" alt="Huminecraft logo">
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Huminecraft</h2>
+            <hr class="divider my-4" />
+            <p class="card-text">
+              Huminecraft est un serveur de jeux. J'y travail en temps que développeur
+              plugin. L'idée est d'apporter des outils pour l'administration systeme du
+              serveur, ainsi que des fonctionnalitées inédite et original pour les joueurs...
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <a class="image-hover" href="https://github.com/fireowls">
+            <img class="card-img-top" src="https://avatars3.githubusercontent.com/u/47418375?s=200&v=4"
+              alt="fireowls logo">
+          </a>
+          <div class="card-body">
+            <h2 class="card-title">Fireowls</h2>
+            <hr class="divider my-4" />
+            <p class="card-text">
+              Fireowls est une équipe de 5 membre d'on l'objectif et de ce former au technologies
+              du web. L'idée étant de créer de site ou application web a qui le demande...
+            </p>
+          </div>
+        </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Me contacter</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-5">Vous pouvez m'envoyer un mail,
+            <br /> ou me contacter par téléphone.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center">
+          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <div>+33.6.84.64.50.17</div>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <a class="d-block" href="mailto:aymeric.henouille@gmail.com">aymeric.henouille@gmail.com</a>
+        </div>
+      </div>
+      <hr class="divider my-4 mt-4" />
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Mes réseaux</h2>
+          <div id="social-link" class="row">
+            <div class="col-md-3 col-sm-6 col-6 text-center">
+              <a href="https://www.facebook.com/aymeric.henouille" class="facebook">
+                <i class="fa fa-facebook fa-2x"></i>
+                <!-- <p>Facebook</p> -->
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 text-center">
+              <a href="https://www.linkedin.com/in/aymeric-h%C3%A9nouille-077a46171/" class="linkedin">
+                <i class="fa fa-linkedin-square fa-2x"></i>
+                <!-- <p>Linkedin</p> -->
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 text-center">
+              <a href="https://soundcloud.com/bardebleu" class="soundcloud">
+                <i class="fa fa-soundcloud fa-2x"></i>
+                <!-- <p>Soundcloud</p> -->
+              </a>
+            </div>
+            <div class="col-md-3 col-sm-6 col-6 text-center">
+              <a href="https://github.com/AymegikeLewok" class="github">
+                <i class="fa fa-github fa-2x"></i>
+                <!-- <p>Github</p> -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">&copy - Hénouille Aymeric - 2019</div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
